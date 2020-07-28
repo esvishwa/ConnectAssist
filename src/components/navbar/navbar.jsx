@@ -7,55 +7,56 @@ class NavBar extends Component {
   state = {};
   render() {
     return (
-      <div id="bb">
-        <div className="topnav">
+      <html>
+        <head>
+          <title>ConnectAssist</title>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           />
+        </head>
 
-          <a className="navbar-brand iconmain" href="#">
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png"
-              width="70"
-              height="70"
-              alt="here"
-            />
-          </a>
-          <input
-            className="searchinput"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <Link to="/referrals">
-            <i className="fa fa-fw fa-link referralicon">
-              <span className="referralText">Referral</span>
-            </i>
-          </Link>
-          <a href="#news">
-            <i className="fa fa-fw fa-user usericon ">
-              <span className="referralText">Network</span>
-            </i>
-          </a>
-          <a href="#contact">
-            <i className="fa fa-fw fa-bell bellicon">
-              <span className="notificationText">Notifications</span>
-            </i>
-          </a>
-
-          <a href="#about" className="active">
-            <i className="fa fa-fw fa-home apiicon">
-              <span className="referralText">Home</span>
-            </i>
-          </a>
-          <a href="#news">
-            <i className="fa fa-comments-o messageicon" aria-hidden="true">
-              <span className="referralText">Messages</span>
-            </i>
-          </a>
-        </div>
-      </div>
+        <body>
+          <div class="topnav">
+            <div class="navbar">
+              <a class="navbar-brand iconmain" href="#">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png"
+                  width="70"
+                  height="70"
+                  alt="LinkedIn Home Icon"
+                />
+              </a>
+              <input
+                class="searchinput"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a href="#">
+                <i class="fa fa-fw fa-home"></i>Home
+              </a>
+              <a href="#">
+                <i class="fa fa-fw fa-users"></i>My Network
+              </a>
+              <a href="#">
+                <i class="fa fa-fw fa-briefcase"></i>Jobs
+              </a>
+              <a href="#">
+                <i class="fa fa-fw fa-envelope"></i>Messages
+              </a>
+              <a href="#">
+                <i class="fa fa-fw fa-bell"></i>Notifications
+              </a>
+              <Link to="/referrals">
+                <a href="#">
+                  <i class="fa fa-fw fa-link"></i>Referrals
+                </a>
+              </Link>
+            </div>
+          </div>
+        </body>
+      </html>
     );
   }
 }
