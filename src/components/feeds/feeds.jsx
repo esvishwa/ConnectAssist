@@ -8,8 +8,9 @@ class Feeds extends Component {
       <div class="outer">
         <div class="outerclass">
           <div class="row">
-            <div class="col-sm-2">
-              <div class="col-sm-12 inner1">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-2">
+            <div class="inner1">
                 <div class="row">
                   <div class="col-sm-12">
                       <img
@@ -31,7 +32,6 @@ class Feeds extends Component {
                         <p>Software Developer at Micrsoft</p>
                     </div>
                   </div>
-                  
               </div>
               <div class="col-sm-12 RecentCard">
                 <div class="row">
@@ -142,7 +142,82 @@ class Feeds extends Component {
                   </ul>
               </div>
               </div>
-            </div>
+              <div class="row">
+                <div class="col-sm-12 inner">
+                  <br />
+                  <ul class="companiesList">
+                    <li> <div>
+                        <img
+                          src="https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0?e=1603929600&v=beta&t=uSxfWAa5MS6wIskRXSQWYgZvSdUp7kqTKnCPWTMaC5c"
+                          width="40px"
+                          height="40px"
+                        />
+                        <span class="companyName">LinkedIn</span>
+                        <p class="openingInfo">
+                          12,392,437 followers <br />
+                          4 days ago
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <h7>Continuing to refresh your skills and experiences can help unlock opportunities: <a href="https://lnkd.in/gf_MPhR">https://lnkd.in/gf_MPhR</a></h7>
+                    </li>
+                    <li><img
+                          src="https://picjumbo.com/wp-content/uploads/young-woman-working-typing-on-her-laptop_free_stock_photos_picjumbo_HNCK2983.jpg"
+                          width="600px"
+                          height="200px"
+                        />
+                    </li>
+                    <hr />
+                    <li>
+                      <div class="row">
+                      <div class="col-sm-2">
+                      <span>
+                        <img
+                          src="https://cdn4.iconfinder.com/data/icons/social-media-3/512/Like-512.png"
+                          width="20px"
+                          height="20px"
+                        />
+                        <label>&ensp;Like</label></span>
+                        
+                      </div>
+                      <div class="col-sm-3">
+                        <img
+                        src="https://th.bing.com/th/id/OIP.VbgFgO1EH8KkvbE3z0A-5gAAAA?pid=Api&rs=1"
+                          width="25px"
+                          height="25px"
+                        />
+                        <span >&ensp;Comment</span>
+                        
+                      </div>
+                      <div class="col-sm-3">
+                        <img
+                          src="https://th.bing.com/th/id/OIP.GgwLN7pMjZK5aufZ76wjsQHaF6?pid=Api&rs=1"
+                          width="20px"
+                          height="20px"
+                        />
+                        <span >&ensp;Share</span>
+                        
+                      </div>
+                      <div class="col-sm-2">
+                        <img
+                          src="https://emareye.com/mricfiles/uploads/2017/03/graysendbutton-copy-300x300.png"
+                          width="20px"
+                          height="20px"
+                        />
+                        <span >&ensp;Send</span>
+                        
+                      </div>
+                      </div>
+                    </li>
+                  </ul>
+                    
+                </div>
+                
+                
+              </div>
+              
+              </div>
             <div class="col-sm-2 inner3">
               <h5 class="newhead">Today's News and Views</h5>
 
