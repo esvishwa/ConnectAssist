@@ -33,11 +33,10 @@ class Feeds extends Component {
                   </div>
                   
               </div>
-              <div class="col-sm-12 inner1">
+              <div class="col-sm-12 RecentCard">
                 <div class="row">
                   <div class="col-sm-12">
-                    <hr/>
-                      <h7>Recent</h7><br/>
+                      <h6>Recent</h6>
                       <h7># microsoft</h7><br/>
                       <h7># linkedin</h7><br/>
                       <h7># womenintechnology</h7>
@@ -72,7 +71,7 @@ class Feeds extends Component {
                           width="20px"
                           height="20px"
                         />
-                        <label>Photo</label></span>
+                        <label>&ensp;Photo</label></span>
                         
                       </div>
                       <div class="col-sm-3">
@@ -81,7 +80,7 @@ class Feeds extends Component {
                           width="25px"
                           height="25px"
                         />
-                        <span >Video</span>
+                        <span >&ensp;Video</span>
                         
                       </div>
                       <div class="col-sm-3">
@@ -90,7 +89,7 @@ class Feeds extends Component {
                           width="20px"
                           height="20px"
                         />
-                        <span >Document</span>
+                        <span >&ensp;Document</span>
                         
                       </div>
                       <div class="col-sm-3">
@@ -99,7 +98,7 @@ class Feeds extends Component {
                           width="20px"
                           height="20px"
                         />
-                        <span >Write article</span>
+                        <span >&ensp;Write article</span>
                         
                       </div>
                       </div>

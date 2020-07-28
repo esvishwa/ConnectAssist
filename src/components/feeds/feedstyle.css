@@ -33,6 +33,22 @@
   padding-left: auto;
   padding-right: auto;
 }
+
+.RecentCard {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  margin-top: 25px;
+  height: 200px;
+  width: 80px;
+  display: block;
+  margin-left: 250px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.RecentCard h6{
+  padding-top: 25px;
+}
+
 .inner1 h5 {
   text-align: center;
   position: relative;
