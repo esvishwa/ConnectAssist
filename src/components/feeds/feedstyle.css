@@ -6,9 +6,18 @@
   background-color: #ffffff;
   height: 230px;
   border: 1px solid #e5e5e5;
-  margin-left: 20px;
+  margin-left: 245px;
   margin-top: 25px;
 }
+
+.innerPost {
+  background-color: #ffffff;
+  height: 120px;
+  border: 1px solid #e5e5e5;
+  margin-left: 245px;
+  margin-top: 25px;
+}
+
 .outerclass {
   padding: 10px 10px 10px 40px;
   background-color: #f4f4f4;
@@ -18,21 +27,22 @@
   border: 1px solid #e5e5e5;
   margin-top: 25px;
   height: 300px;
-  width: 100px;
+  width: 80px;
   display: block;
+  margin-left: 250px;
   padding-left: auto;
   padding-right: auto;
 }
 .inner1 h5 {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 35px;
 }
 .inner1 p {
   color: rgb(120, 113, 113);
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 30px;
 }
 .companiesList {
   list-style-type: none;
@@ -61,7 +71,7 @@
   background-color: #ffffff;
   height: 230px;
   height: 350px;
-  margin-left: 20px;
+  margin-left: 255px;
   border: 1px solid #e5e5e5;
   margin-top: 25px;
 }
@@ -87,5 +97,5 @@
   margin-right: auto;
   width: 76px;
   position: relative;
-  top: 30px;
+  top: 25px;
 }
