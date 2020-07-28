@@ -7,57 +7,32 @@ class NavBar extends Component {
   state = {};
   render() {
     return (
-      <div id="bb">
+		<html>
+		<head>
+		<title>ConnectAssist</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		</head>
+
+		<body>
         <div class="topnav">
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          />
 
-          <a class="navbar-brand iconmain" href="#">
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png"
-              width="70"
-              height="70"
-              alt="here"
-            />
-          </a>
-          <input
-            class="searchinput"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <Link to="/referrals">
-            <a href="#home">
-              <i class="fa fa-fw fa-link referralicon">
-                <span class="referralText">Referral</span>
-              </i>
-            </a>
-          </Link>
-          <a href="#news">
-            <i class="fa fa-fw fa-user usericon ">
-              <span class="referralText">Network</span>
-            </i>
-          </a>
-          <a href="#contact">
-            <i class="fa fa-fw fa-bell bellicon">
-              <span class="notificationText">Notifications</span>
-            </i>
-          </a>
+        <div class="navbar">
+        <a class="navbar-brand iconmain" href="#">
+			<img src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png" width="70" height="70" alt="LinkedIn Home Icon" />
+		</a>
+		<input class="searchinput" type="search" placeholder="Search" aria-label="Search" />
+		<a href="#"><i class="fa fa-fw fa-home"></i>Home</a> 
+		<a href="#"><i class="fa fa-fw fa-users"></i>My Network</a> 
+		<a href="#"><i class="fa fa-fw fa-briefcase"></i>Jobs</a> 
+		<a href="#"><i class="fa fa-fw fa-envelope"></i>Messages</a>
+		<a href="#"><i class="fa fa-fw fa-bell"></i>Notifications</a>
+		<Link to="/referrals"><a href="#"><i class="fa fa-fw fa-link"></i>Referrals</a></Link>
+		</div>
 
-          <a href="#about" class="active">
-            <i class="fa fa-fw fa-home apiicon">
-              <span class="referralText">Home</span>
-            </i>
-          </a>
-          <a href="#news">
-            <i class="fa fa-comments-o messageicon" aria-hidden="true">
-              <span class="referralText">Messages</span>
-            </i>
-          </a>
-        </div>
-      </div>
+		</div>
+
+		</body>
+		</html>
     );
   }
 }
