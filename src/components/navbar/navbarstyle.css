@@ -1,99 +1,43 @@
-.iconmain {
-  margin: -20px;
-  position: relative;
-  top: 0px;
-  float: left;
-  right: 1200px;
-}
-form {
-  align-content: flex-start;
-  left: 100px;
-}
-
-#bb {
-  background-color: #004b7c;
-}
-.searchinput {
-  padding: 4px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  border-radius: 5px;
-  position: relative;
-  left: 300px;
-  top: 10px;
-  width: 230px;
-}
-.apiicon {
-  position: relative;
-  left: -400px;
-}
-
-nav li {
-  list-style: none;
-  position: relative;
-  bottom: 30px;
-  left: 700px;
-}
-.hometext {
-  color: white;
-  text-decoration: none;
-  font-size: 13px;
-  position: relative;
-  right: 15px;
-}
-p {
-  font-size: 13px;
-}
 .topnav {
-  overflow: hidden;
   background-color: #004b7c;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
-.topnav a {
-  float: right;
-  color: grey;
-  text-align: center;
-  padding: 14px 16px;
+.navbar {
+  width: 100%;
+  background-color: #004b7c;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 6px;
+  color: #BDBDBD;
   text-decoration: none;
   font-size: 17px;
 }
 
-.topnav a:hover {
-  color: #ffffff;
-}
-
-.topnav a.active {
-  background-color: #004b7c;
+.navbar a:hover {
   color: white;
 }
 
-.bellicon {
-  position: relative;
-  left: -326px;
+.active {
+  background-color: #4CAF50;
 }
-.usericon {
-  position: relative;
-  left: -448px;
+
+.searchinput {
+  padding-left: 16px;
+  border-radius: 5px;
+  left: 300px;
+  top: 10px;
+  width: 230px;
+  height: 40px;
 }
-.referralicon {
-  position: relative;
-  right: 360px;
-}
-.referralText {
-  font-size: 13px;
-  color: white;
-  position: relative;
-  top: 17px;
-  right: 27px;
-}
-.notificationText {
-  font-size: 13px;
-  color: white;
-  position: relative;
-  top: 17px;
-  right: 38px;
-}
-.messageicon {
-  position: relative;
-  right: 36px;
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
