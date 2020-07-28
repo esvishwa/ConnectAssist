@@ -4,17 +4,14 @@
 
 .inner {
   background-color: #ffffff;
-  height: 230px;
   border: 1px solid #e5e5e5;
-  margin-left: 245px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .innerPost {
   background-color: #ffffff;
   height: 120px;
   border: 1px solid #e5e5e5;
-  margin-left: 245px;
   margin-top: 25px;
 }
 
@@ -27,11 +24,7 @@
   border: 1px solid #e5e5e5;
   margin-top: 25px;
   height: 300px;
-  width: 80px;
   display: block;
-  margin-left: 250px;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .RecentCard {
@@ -41,7 +34,6 @@
   height: 200px;
   width: 80px;
   display: block;
-  margin-left: 250px;
   padding-left: auto;
   padding-right: auto;
 }
@@ -68,12 +60,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 18px;
   position: relative;
-  top: -5px;
+  top: -10px;
   font-style: bold;
   font-display: bold;
 }
 .companiesList div {
-  margin-bottom: 18px;
+  margin-bottom: 5px;
 }
 
 .openingInfo {
@@ -85,11 +77,10 @@
 
 .inner3 {
   background-color: #ffffff;
-  height: 230px;
   height: 350px;
-  margin-left: 255px;
   border: 1px solid #e5e5e5;
   margin-top: 25px;
+  margin-left:15px;
 }
 .newhead {
   margin-top: 10px;
