@@ -1,23 +1,68 @@
 .outerBox {
-  background-color: #ffffff;
+  background-color: #d5e7f3;
   margin: 5px;
-  background-image: url("https://media.gettyimages.com/vectors/horizontal-vector-illustration-of-an-empty-light-bluish-grey-grungy-vector-id1148826138");
+
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 
 .searchHead {
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 10px;
 }
 
 .titlesearchbar {
   width: 300px;
   padding: 3px;
-  margin-top: 35px;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-radius: 3px;
-  border: 1px solid #4876ff;
+  border: 1px solid lightgrey;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 30px;
+  margin-left: 15%;
+  margin-right: 2%;
+}
+.titlesearchbar:hover {
+  border: 1px solid black;
+}
+
+.filter {
+  margin-top: 1%;
+  margin-left: 15%;
+}
+
+.artdeco-button {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 167ms;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 6rem;
+  max-width: 480px;
+  overflow: hidden;
+  text-align: center;
+  transition-property: background-color, box-shadow, color;
+  vertical-align: middle;
+}
+
+.artdeco-button--3 {
+  font-size: 1rem;
+  padding: 0.5%;
+}
+.artdeco-button,
+.artdeco-button--primary,
+.artdeco-button--primary:visited,
+.artdeco-button--primary:visited:hover,
+.artdeco-button:visited,
+.artdeco-button:visited:hover,
+a.artdeco-button--primary {
+  background-color: #0073b1;
+  color: #fff;
 }

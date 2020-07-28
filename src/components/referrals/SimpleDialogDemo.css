@@ -1,0 +1,11 @@
+.requestbutton {
+  border: 1px solid #1e90ff;
+  position: relative;
+  margin-bottom: 10%;
+  align-self: center;
+  width: 130%;
+  background-color: white;
+  color: #1e90ff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

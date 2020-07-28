@@ -5,3 +5,14 @@
 .leftlist li:hover {
   background-color: antiquewhite;
 }
+
+.tile {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fit, 250px);
+  padding: 25px;
+  background-color: white;
+  border-radius: 1px;
+  grid-gap: 9px;
+  margin-left: 50px;
+}

@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import DerivedList from "./derivedlist";
 import "./resultlist.css";
+import FormDialog from "./FormDialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { useTheme } from "@material-ui/core/styles";
 
 class ResultList extends Component {
-  state = {};
   render() {
     switch (this.props.visibilityOfList) {
       case 0:
@@ -11,21 +16,15 @@ class ResultList extends Component {
       case 1:
         return (
           <div>
-            <div class="col-md-6 leftlist">
+            <div className="tile">
               {this.props.names.map((name) => (
-                <ul>
-                  <li>
-                    <DerivedList
-                      key={name.key}
-                      name={name}
-                      handleRequestButton={this.handleRequestButton}
-                    />
-                    <hr />
-                  </li>
-                </ul>
+                <DerivedList
+                  key={name.id}
+                  name={name}
+                  handleRequestButton={this.handleRequestButton}
+                />
               ))}
             </div>
-            <div class="col-md-6 leftlist"></div>
           </div>
         );
     }

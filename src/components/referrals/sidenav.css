@@ -1,0 +1,45 @@
+.sidenav {
+  width: 25%;
+  height: 550px;
+  float: left;
+  z-index: 1;
+  margin-right: 10px;
+  background: white;
+  overflow-x: hidden;
+  padding: 8px 0;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+#sidenavmessage {
+  padding: 5px;
+}
+
+#iconbrowse {
+  width: 10px;
+}
+
+.imagesidenav {
+  position: relative;
+}
+
+.nextopportunity {
+  padding: 10px;
+}
+
+.space {
+  margin-top: 20px;
+  margin-left: 30%;
+}

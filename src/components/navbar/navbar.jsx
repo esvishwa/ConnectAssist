@@ -8,13 +8,13 @@ class NavBar extends Component {
   render() {
     return (
       <div id="bb">
-        <div class="topnav">
+        <div className="topnav">
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           />
 
-          <a class="navbar-brand iconmain" href="#">
+          <a className="navbar-brand iconmain" href="#">
             <img
               src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png"
               width="70"
@@ -23,37 +23,35 @@ class NavBar extends Component {
             />
           </a>
           <input
-            class="searchinput"
+            className="searchinput"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
           <Link to="/referrals">
-            <a href="#home">
-              <i class="fa fa-fw fa-link referralicon">
-                <span class="referralText">Referral</span>
-              </i>
-            </a>
+            <i className="fa fa-fw fa-link referralicon">
+              <span className="referralText">Referral</span>
+            </i>
           </Link>
           <a href="#news">
-            <i class="fa fa-fw fa-user usericon ">
-              <span class="referralText">Network</span>
+            <i className="fa fa-fw fa-user usericon ">
+              <span className="referralText">Network</span>
             </i>
           </a>
           <a href="#contact">
-            <i class="fa fa-fw fa-bell bellicon">
-              <span class="notificationText">Notifications</span>
+            <i className="fa fa-fw fa-bell bellicon">
+              <span className="notificationText">Notifications</span>
             </i>
           </a>
 
-          <a href="#about" class="active">
-            <i class="fa fa-fw fa-home apiicon">
-              <span class="referralText">Home</span>
+          <a href="#about" className="active">
+            <i className="fa fa-fw fa-home apiicon">
+              <span className="referralText">Home</span>
             </i>
           </a>
           <a href="#news">
-            <i class="fa fa-comments-o messageicon" aria-hidden="true">
-              <span class="referralText">Messages</span>
+            <i className="fa fa-comments-o messageicon" aria-hidden="true">
+              <span className="referralText">Messages</span>
             </i>
           </a>
         </div>

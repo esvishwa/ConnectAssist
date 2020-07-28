@@ -1,37 +1,45 @@
 import React, { Component } from "react";
 import "./derivedlist.css";
+import SimpleDialogDemo from "./SimpleDialogDemo";
 
 class DerivedList extends Component {
   state = {};
   render() {
     return (
-      <div class="row listblock">
-        <div class="col-md-6">
-          <img
-            src={this.props.name.img}
-            width="52"
-            height="52"
-            class="profilepicture"
-          />
-          <span class="recruiterName">{this.props.name.name}</span>
-
-          <p class="recruiterCompany">{this.props.name.company}</p>
-          <p class="locationName">
+      <div className="tileblock">
+        <div className="containertile col-md-9">
+          <div className="imagediv">
             <img
-              src="https://p7.hiclipart.com/preview/517/350/522/paper-google-map-maker-computer-icons-world-map-location-icon.jpg"
-              width="14"
-              height="14"
+              src={this.props.name.img}
+              width="52"
+              height="52"
+              className="profilepicture"
             />
+          </div>
 
-            {this.props.name.location}
-          </p>
+          <div className="namediv">
+            <span className="recruiterName">{this.props.name.name}</span>
+          </div>
 
-          <button
-            class="requestbutton"
-            onClick={() => this.props.handleRequestButton(this.props.name)}
-          >
-            <span class="requestText">Request</span>
-          </button>
+          <div className="companydiv">
+            <p className="recruiterCompany">{this.props.name.company}</p>
+          </div>
+
+          <div className="locationdiv">
+            <p className="locationName">
+              <img
+                src="https://p7.hiclipart.com/preview/517/350/522/paper-google-map-maker-computer-icons-world-map-location-icon.jpg"
+                width="14"
+                height="14"
+              />
+
+              {this.props.name.location}
+            </p>
+          </div>
+
+          <div className="buttondiv">
+            <SimpleDialogDemo />
+          </div>
         </div>
       </div>
     );

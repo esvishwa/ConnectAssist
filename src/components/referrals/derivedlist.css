@@ -1,7 +1,26 @@
-.listblock {
-  overflow: auto;
+.tileblock {
+  margin: 1px;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  height: auto;
+  padding-top: 2px;
 }
 
+.namediv {
+  text-align: left;
+  padding-top: 10%;
+}
+.companydiv {
+  float: bottom;
+  text-align: left;
+  padding-top: 7%;
+}
+.locationdiv {
+}
+
+/* .buttondiv {
+  width: 100%;
+} */
 .recruiterName {
   font-size: 19;
   position: relative;
@@ -26,18 +45,7 @@ p {
   left: 68px;
   top: -28px;
 }
-.requestbutton {
-  position: relative;
-  width: 90px;
-  background-color: #1e90ff;
-  color: white;
-  border: 1px solid #1e90ff;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  position: relative;
-  left: 7px;
-  top: -10px;
-}
+
 .requestText {
   font-size: 8;
 }
