@@ -21,46 +21,48 @@ class PostReferral extends Component {
         </h4>
         <form class="pure-form pure-form-aligned">
           <fieldset>
-            <div class="pure-control-group">
-              <label className="namelabel" for="aligned-name">
-                Whom do you know as hiring contact
-              </label>
-              <input type="text" id="aligned-name" placeholder="Name" />
-            </div>
-            <div class="pure-control-group">
-              <label className="namelabel" for="aligned-password">
-                How do you know this person?
-              </label>
-              <input
-                type="text"
-                id="aligned-password"
-                placeholder="Relationship"
-              />
-            </div>
-            <div class="pure-control-group">
-              <label className="namelabel" for="aligned-email">
-                Team
-              </label>
-              <input type="text" id="aligned-email" placeholder="Team" />
-            </div>
-            <div class="pure-control-group">
-              <label className="namelabel" for="aligned-foo">
-                Position
-              </label>
-              <input type="text" id="aligned-foo" placeholder="Position" />
-            </div>
-            <div className="namelabel">
-              <label for="aligned-cb" class="pure-checkbox">
-                <input type="checkbox" id="aligned-cb" /> Make the post visible
-                to connections only
-              </label>
-              <label for="aligned-cb" class="pure-checkbox">
-                <input type="checkbox" id="aligned-cb" /> Make the post public
-              </label>
-              &nbsp;
-              <button type="submit" class="pure-button pure-button-primary">
-                Post
-              </button>
+            <div className="formset">
+              <div class="pure-control-group">
+                <label className="namelabel" for="aligned-name">
+                  Whom do you know as hiring contact
+                </label>
+                <input type="text" id="aligned-name" placeholder="Name" />
+              </div>
+              <div class="pure-control-group">
+                <label className="namelabel" for="aligned-password">
+                  How do you know this person?
+                </label>
+                <input
+                  type="text"
+                  id="aligned-password"
+                  placeholder="Relationship"
+                />
+              </div>
+              <div class="pure-control-group">
+                <label className="namelabel" for="aligned-email">
+                  Team
+                </label>
+                <input type="text" id="aligned-email" placeholder="Team" />
+              </div>
+              <div class="pure-control-group">
+                <label className="namelabel" for="aligned-foo">
+                  Position
+                </label>
+                <input type="text" id="aligned-foo" placeholder="Position" />
+              </div>
+              <div className="namelabel">
+                <label for="aligned-cb" class="pure-checkbox">
+                  <input type="checkbox" id="aligned-cb" /> Make the post
+                  visible to connections only
+                </label>
+                <label for="aligned-cb" class="pure-checkbox">
+                  <input type="checkbox" id="aligned-cb" /> Make the post public
+                </label>
+                &nbsp;
+                <button type="submit" class="pure-button pure-button-primary">
+                  Post
+                </button>
+              </div>
             </div>
           </fieldset>
         </form>
