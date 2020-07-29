@@ -17,9 +17,9 @@ class NavBar extends Component {
         </head>
 
         <body>
-          <div class="topnav">
-            <div class="navbar">
-              <a class="navbar-brand iconmain" href="#">
+          <div className="topnav">
+            <div className="navbar">
+              <a className="navbar-brand iconmain" href="#">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/simple-social-media-shadow/512/14-512.png"
                   width="70"
@@ -28,29 +28,32 @@ class NavBar extends Component {
                 />
               </a>
               <input
-                class="searchinput"
+                className="searchinput"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
+              <Link to="/">
+                <a href="#">
+                  <i className="fa fa-fw fa-home"></i>Home
+                </a>
+              </Link>
+
               <a href="#">
-                <i class="fa fa-fw fa-home"></i>Home
+                <i className="fa fa-fw fa-users"></i>My Network
               </a>
               <a href="#">
-                <i class="fa fa-fw fa-users"></i>My Network
+                <i className="fa fa-fw fa-briefcase"></i>Jobs
               </a>
               <a href="#">
-                <i class="fa fa-fw fa-briefcase"></i>Jobs
+                <i className="fa fa-fw fa-envelope"></i>Messages
               </a>
               <a href="#">
-                <i class="fa fa-fw fa-envelope"></i>Messages
-              </a>
-              <a href="#">
-                <i class="fa fa-fw fa-bell"></i>Notifications
+                <i className="fa fa-fw fa-bell"></i>Notifications
               </a>
               <Link to="/referrals">
                 <a href="#">
-                  <i class="fa fa-fw fa-link"></i>Referrals
+                  <i className="fa fa-fw fa-link"></i>Referrals
                 </a>
               </Link>
             </div>

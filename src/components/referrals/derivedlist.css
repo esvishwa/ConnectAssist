@@ -18,9 +18,9 @@
 .locationdiv {
 }
 
-/* .buttondiv {
+.buttondiv {
   width: 100%;
-} */
+}
 .recruiterName {
   font-size: 19;
   position: relative;
@@ -45,7 +45,6 @@ p {
   left: 68px;
   top: -28px;
 }
-
 .requestText {
   font-size: 8;
 }

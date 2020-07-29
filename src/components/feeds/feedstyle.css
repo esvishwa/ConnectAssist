@@ -1,7 +1,6 @@
 .outer {
   background-color: #f4f4f4;
 }
-
 .inner {
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
@@ -22,8 +21,8 @@
 .inner1 {
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
-  margin-top: 25px;
-  height: 300px;
+  margin-top: 12%;
+  height: 35%;
   display: block;
 }
 
@@ -31,26 +30,26 @@
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   margin-top: 25px;
-  height: 200px;
+  height: 30%;
   width: 80px;
   display: block;
   padding-left: auto;
   padding-right: auto;
 }
-.RecentCard h6{
+.RecentCard h6 {
   padding-top: 25px;
 }
 
 .inner1 h5 {
+  margin-top: 20%;
   text-align: center;
   position: relative;
-  top: 35px;
 }
+
 .inner1 p {
   color: rgb(120, 113, 113);
   text-align: center;
   position: relative;
-  top: 30px;
 }
 .companiesList {
   list-style-type: none;
@@ -77,10 +76,10 @@
 
 .inner3 {
   background-color: #ffffff;
-  height: 350px;
+  height: 50%;
   border: 1px solid #e5e5e5;
   margin-top: 25px;
-  margin-left:15px;
+  margin-left: 15px;
 }
 .newhead {
   margin-top: 10px;
