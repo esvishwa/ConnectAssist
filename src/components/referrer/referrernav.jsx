@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import sidenav from "./sidenav.css";
-import { Link } from "react-router-dom";
+import "./referrernav.css";
 
-class SideNav extends Component {
+class ReferrerNav extends Component {
   render() {
     return (
       <div className="sidenav">
@@ -12,14 +11,14 @@ class SideNav extends Component {
         ></link>
         <div className="sidebar">
           <a href="#home">
-            <i className="fa fa-fw fa-search"></i> Browse Referrals
+            <i class="fa fa-handshake-o" aria-hidden="true"></i> Post referral
           </a>
 
           <a href="#services">
             <i className="fa fa-fw fa-wrench"></i> Referral Status
           </a>
           <a href="#clients">
-            <i className="fa fa-fw fa-user"></i> Register as referrer
+            <i className="fa fa-fw fa-user"></i> Referral Network
           </a>
           <a href="#contact">
             <i className="fa fa-fw fa-envelope"></i> Feed
@@ -34,9 +33,7 @@ class SideNav extends Component {
             height="52"
             className="imagesidenav"
           />{" "}
-          <span>
-            Jason, <b>Bio Protect</b> Is hiring
-          </span>
+          <span>Mark has pending request</span>
           <button
             className="space jobs-search-box__submit-button artdeco-button artdeco-button--3 ml2"
             type="submit"
@@ -50,9 +47,7 @@ class SideNav extends Component {
             height="52"
             className="imagesidenav"
           />{" "}
-          <span>
-            Jason, <b>Genify Pro</b> Is hiring
-          </span>
+          <span>Tina request for referral</span>
           <button
             className="space jobs-search-box__submit-button artdeco-button artdeco-button--3 ml2"
             type="submit"
@@ -65,4 +60,4 @@ class SideNav extends Component {
   }
 }
 
-export default SideNav;
+export default ReferrerNav;

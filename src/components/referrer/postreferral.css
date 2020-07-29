@@ -1,0 +1,38 @@
+.maindiv {
+  align-items: center;
+}
+.heading4 {
+  font-size: 17px;
+  color: darkgrey;
+}
+
+.username {
+  width: 200px;
+  align-self: center;
+}
+
+.password {
+  width: 200px;
+}
+.forms {
+  width: 400px;
+  margin-top: 50px;
+
+  position: relative;
+  left: 360px;
+}
+
+.signin {
+  width: 360px;
+  background-color: #0073b1;
+}
+
+.containerpostreferral {
+  background-color: white;
+  margin-left: 30%;
+  width: 70%;
+  height: 550px;
+}
+.namelabel {
+  padding: 1%;
+}

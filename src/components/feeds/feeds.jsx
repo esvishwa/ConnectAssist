@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./feedstyle.css";
+import { Link } from "react-router-dom";
 
 class Feeds extends Component {
   state = {};
@@ -25,7 +26,9 @@ class Feeds extends Component {
                 <div class="col-sm-12">
                   <p>Who viewed your profile : 200</p>
                   <p>
-                    <b>Checkout the referral tab</b>
+                    <b>
+                      <Link to="/referrer">Checkout the referrer tab</Link>
+                    </b>
                   </p>
                 </div>
               </div>
